@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sundlee/hcm-note/issues"
   },
-  "homepage": "https://github.com/sundlee/hcm-note#readme"
+  "homepage": "https://github.com/sundlee/hcm-note#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
 }
