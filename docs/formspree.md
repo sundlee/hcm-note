@@ -15,7 +15,6 @@ title: formspree
 ```
 
 # formspree사용하는 법
-
 1. form tag의 action에 formspree의 주소와 email을 아래의 형식에 맞춰 입력합니다. (method는 "POST"선택해주세요.)
 
 ```
