@@ -17,15 +17,14 @@ title: formspree
 # formspree사용하는 법
 1. form tag의 action에 formspree의 주소와 email을 아래의 형식에 맞춰 입력합니다. (method는 "POST"선택해주세요.)
 
-```
+```html
 <form action="https://formspree.io/email@domain.tld" method="POST" />
 ```
 
 2. form(i.e. <input>, <select>, <textare>)에 name attribut를 추가합니다.
 
-```
+```html
 <input type="text" name="name">
 ```
 
 3. submit을 하면 email confirm화면이 보이고, email을 확인하면 form의 값이 email로 전송이 될 것 입니다.
-  
