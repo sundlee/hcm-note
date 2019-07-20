@@ -23,16 +23,10 @@ title: formspree
 ```
 
 2. form(i.e. <input>, <select>, <textare>)에 name attribut를 추가합니다.
-3. submit을 하면 email confirm화면이 보이고, email을 확인하면 form의 값이 email로 전송이 될 것 입니다.
-
-
-
-
-
-
-
-
 
 ```
 <input type="text" name="name">
 ```
+
+3. submit을 하면 email confirm화면이 보이고, email을 확인하면 form의 값이 email로 전송이 될 것 입니다.
+  
