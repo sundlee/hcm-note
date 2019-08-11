@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>position | HTML/CSS Master 학습 노트</title>
+    <meta name="description" content="HTML/CSS Master 학습 노트">
+    <link rel="icon" href="/hcm-note/logo.png">
+    
+    <link rel="preload" href="/hcm-note/assets/css/0.styles.7aace716.css" as="style"><link rel="preload" href="/hcm-note/assets/js/app.25506336.js" as="script"><link rel="preload" href="/hcm-note/assets/js/2.5f088dd6.js" as="script"><link rel="preload" href="/hcm-note/assets/js/13.efc04c46.js" as="script"><link rel="prefetch" href="/hcm-note/assets/js/10.d5630d69.js"><link rel="prefetch" href="/hcm-note/assets/js/11.cba899d9.js"><link rel="prefetch" href="/hcm-note/assets/js/12.f27e7eba.js"><link rel="prefetch" href="/hcm-note/assets/js/14.9cd47079.js"><link rel="prefetch" href="/hcm-note/assets/js/15.d7c087f1.js"><link rel="prefetch" href="/hcm-note/assets/js/16.80354d2f.js"><link rel="prefetch" href="/hcm-note/assets/js/17.1f17779b.js"><link rel="prefetch" href="/hcm-note/assets/js/18.c6f0053f.js"><link rel="prefetch" href="/hcm-note/assets/js/19.6ad1e95f.js"><link rel="prefetch" href="/hcm-note/assets/js/20.834fbdab.js"><link rel="prefetch" href="/hcm-note/assets/js/3.84eade6a.js"><link rel="prefetch" href="/hcm-note/assets/js/4.e502f681.js"><link rel="prefetch" href="/hcm-note/assets/js/5.4760ded2.js"><link rel="prefetch" href="/hcm-note/assets/js/6.8a86ee79.js"><link rel="prefetch" href="/hcm-note/assets/js/7.c5041158.js"><link rel="prefetch" href="/hcm-note/assets/js/8.b004cda7.js"><link rel="prefetch" href="/hcm-note/assets/js/9.198c626c.js">
+    <link rel="stylesheet" href="/hcm-note/assets/css/0.styles.7aace716.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/hcm-note/" class="home-link router-link-active"><!----> <span class="site-name">HTML/CSS Master 학습 노트</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Day 1</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Day 2</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Day 3</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Day 4</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/hcm-note/position.html" class="active sidebar-link">position</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/hcm-note/position.html#static" class="sidebar-link">static</a></li><li class="sidebar-sub-header"><a href="/hcm-note/position.html#relative" class="sidebar-link">relative</a></li><li class="sidebar-sub-header"><a href="/hcm-note/position.html#fixed" class="sidebar-link">fixed</a></li><li class="sidebar-sub-header"><a href="/hcm-note/position.html#absolute" class="sidebar-link">absolute</a></li></ul></li><li><a href="/hcm-note/display.html" class="sidebar-link">display</a></li><li><a href="/hcm-note/nth-child.html" class="sidebar-link">nth-child</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Day 5</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/hcm-note/transform.html" class="sidebar-link">transform</a></li><li><a href="/hcm-note/jquery.html" class="sidebar-link">jquery</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="position"><a href="#position" aria-hidden="true" class="header-anchor">#</a> position</h1> <p>복잡한 레이아웃을 만들기 위해서는 position 프로퍼티에 관해 살펴볼 필요가 있습니다.</p> <h2 id="static"><a href="#static" aria-hidden="true" class="header-anchor">#</a> static</h2> <p>static은 기본값입니다.</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.static</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> static<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="relative"><a href="#relative" aria-hidden="true" class="header-anchor">#</a> relative</h2> <ul><li>relative는 별도의 프로퍼티를 지정하지 않는 이상 static과 동일하게 동작합니다.</li> <li>상대 위치가 지정된 엘리먼트에 top이나 right, bottom, left를 지정하면 기본 위치와 다르게 위치가 조정됩니다. 다른 콘텐츠는 해당 엘리먼트에서 남긴 공백에 맞춰 들어가게끔 조정되지 않습니다.</li></ul> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.relative1</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.relative2</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> -20px<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="fixed"><a href="#fixed" aria-hidden="true" class="header-anchor">#</a> fixed</h2> <p>고정(fixed) 엘리먼트는 페이지가 스크롤되더라도 늘 같은 곳에 위치합니다. relative와 마찬가지로 top이나 right, bottom, left 프로퍼티가 사용됩니다.</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.fixed</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
+  <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="absolute"><a href="#absolute" aria-hidden="true" class="header-anchor">#</a> absolute</h2> <p>absolute는 뷰포트에 상대적으로 위치가 지정되는 게 아니라 가장 가까운 곳에 위치한 조상 엘리먼트에 상대적으로 위치가 지정된다는 점을 제외하면 fixed와 비슷하게 동작합니다. 절대 위치가 지정된 엘리먼트가 기준으로 삼는 조상 엘리먼트가 없으면 문서 본문(document body)을 기준으로 삼고, 페이지 스크롤에 따라 움직입니다.</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.relative</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.absolute</span> <span class="token punctuation">{</span>
+  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 120px<span class="token punctuation">;</span>
+  <span class="token property">right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/hcm-note/pseudo-element.html" class="prev">
+          Pseudo Element
+        </a></span> <span class="next"><a href="/hcm-note/display.html">
+          display
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/hcm-note/assets/js/app.25506336.js" defer></script><script src="/hcm-note/assets/js/2.5f088dd6.js" defer></script><script src="/hcm-note/assets/js/13.efc04c46.js" defer></script>
+  </body>
+</html>
